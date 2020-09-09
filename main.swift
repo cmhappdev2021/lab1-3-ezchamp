@@ -18,12 +18,16 @@ print(perimeter)
 // Print what you would expect the result of integer division of 10 divided by 3 to be. Create a constant, integerDivisionResult that is the result of 10 divided by 3, and print the value.
 
 print("I predict that the result will be 3 since an interger divided by an interger gives an interger.")
-let intergerDivsionResult = 10 / 3
-print(intergerDivsionResult)
+let intergerDivisionResult = 10 / 3
+print(intergerDivisionResult)
 
 // Now create two constants, double10 and double3, set to 10 and 3, and declare their types as Double values. Declare a final constant divisionResult equal to the result of double10 divided by double3. Print the value of divisionResult. How does this differ from the value when using integer division?
 
-
+let double10:Double = 10
+let double3:Double = 3
+let divisionResult = double10 / double3
+print(divisionResult)
+print("It differs from the intergerDivisionResult because the double type does not truncate the decimal values.")
 /* Given the value pi (3.1415927), create a radius constant with a value of 5.0, then calculate the diameter and circumference of the circle using the following equations, and print the results:
 
 diameter = 2 * radius
