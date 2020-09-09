@@ -77,7 +77,6 @@ jimmyNeutron += 5
 jimmyNeutron *= 2
 print(jimmyNeutron)
  
-
 /* Create a variable called piggyBank that begins at 0. You will use this to keep track of money you earn and spend. For each point below, use the right compound assignment operator to update the balance in your piggy bank.
 
 Your neighbor gives you 10 dollars for mowing her lawn
@@ -88,6 +87,18 @@ You spend 3 dollars at a convenience store
 
 Print the balance of your piggy bank after each step. */
 
+var piggyBank = 0
+print(piggyBank)
+piggyBank += 10
+print(piggyBank)
+piggyBank += 20
+print(piggyBank)
+piggyBank /= 2
+print(piggyBank)
+piggyBank *= 3
+print(piggyBank)
+piggyBank -= 3
+print(piggyBank)
 
 // The most basic feature of your fitness tracking app is counting steps. Create a variable steps and set it equal to 0. Then increment its value by 1 to simulate a user taking a step.
 
