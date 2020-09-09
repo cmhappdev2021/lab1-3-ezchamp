@@ -17,6 +17,9 @@ print(perimeter)
 
 // Print what you would expect the result of integer division of 10 divided by 3 to be. Create a constant, integerDivisionResult that is the result of 10 divided by 3, and print the value.
 
+print("I predict that the result will be 3 since an interger divided by an interger gives an interger.")
+let intergerDivsionResult = 10 / 3
+print(intergerDivsionResult)
 
 // Now create two constants, double10 and double3, set to 10 and 3, and declare their types as Double values. Declare a final constant divisionResult equal to the result of double10 divided by double3. Print the value of divisionResult. How does this differ from the value when using integer division?
 
