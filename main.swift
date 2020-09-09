@@ -9,6 +9,7 @@ print(area)
 
 let roomArea = area / 2
 print(roomArea)
+//meant to say in my comments that they were constants, not variables
 
 // Create a perimeter constant whose value equals width plus width plus height plus height, then print out the result.
 
