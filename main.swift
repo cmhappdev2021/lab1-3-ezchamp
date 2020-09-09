@@ -102,6 +102,8 @@ print(piggyBank)
 
 // The most basic feature of your fitness tracking app is counting steps. Create a variable steps and set it equal to 0. Then increment its value by 1 to simulate a user taking a step.
 
+var stepsAgain = 0
+stepsAgain += 1
 
 /* In addition to tracking steps, your fitness tracking app tracks distance traveled. Create a variable distance of type Double and set it equal to 50. This will represent the user having traveled 50 feet.
 
