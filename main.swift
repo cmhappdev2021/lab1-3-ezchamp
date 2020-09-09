@@ -65,6 +65,10 @@ print("The average answer technically does differ from the previous average beca
 
 // Imagine that partway through the day a user has taken 3,467 steps out of the 10,000 step goal. Create constants steps and goal. Both will need to be of type Double so that you can perform accurate calculations. steps should be assigned the value 3,467, and goal should be assigned 10,000. Create a constant percentOfGoal that equals an expression that evaluates to the percent of the goal that has been achieved so far.
 
+let steps:Double = 3467
+let goal:Double = 10000
+let percentOfGoal = (steps/goal) * 100
+
 
 // Declare a variable whose value begins at 10. Using addition, update the value to 15 using the compound assignment operator. Using multiplication, update the value to 30 using compound assignment. Print out the variable's value after each assignment.
 
