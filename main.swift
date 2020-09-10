@@ -166,6 +166,12 @@ print("The values are different because the intergers are multiplying the values
 
 // If you completed the Fitness Calculations exercise, you calculated the percent of the daily step goal that a user has achieved. However, you did this by having steps be of type Double. But you can't really track a partial step, so steps should probably be of type Int. Go ahead and declare steps as type Int and give it a value between 500 and 6,000. Then declare goal as type Int and set it equal to 10,000.
 
-
+let stepsAgainAgain:Int = 555
+let goalAgainAgain:Int = 10000
 
 // Now create a constant percentOfGoal of type Double that equals the percent of the goal that has been reached so far. You'll need to convert your constants of type Int to be of type Double in your calculation.
+
+let percentOfGoalAgain:Double = (Double(stepsAgainAgain)/Double(goalAgainAgain))*100
+print("\(percentOfGoalAgain)%")
+
+//Completed Assignment :)
