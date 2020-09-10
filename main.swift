@@ -111,10 +111,12 @@ You decide, however, to display the distance in meters. 1 meter is approximately
 
 var distance:Double = 50
 distance /= 3
-print("\(distance) feet")
+print("\(distance) meters")
 
 // Print out what you think 10 + 2 * 5 evaluates to. Then print out the actual expression (i.e. print(10 + 2 * 5))
 
+print("20")
+print(10+2*5)
 
 // In a separate print statement, add in the necessary parentheses so that addition takes place before multiplication.
 
