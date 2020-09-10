@@ -162,6 +162,7 @@ print(multipliedAsDoubles)
 
 // Are the values of multipliedAsIntegers and multipliedAsDoubles different? Print a statement to the console explaining why.
 
+print("The values are different because the intergers are multiplying the values with truncated decimals while the doubles are multiplying the vales with the decimal values included.")
 
 // If you completed the Fitness Calculations exercise, you calculated the percent of the daily step goal that a user has achieved. However, you did this by having steps be of type Double. But you can't really track a partial step, so steps should probably be of type Int. Go ahead and declare steps as type Int and give it a value between 500 and 6,000. Then declare goal as type Int and set it equal to 10,000.
 
