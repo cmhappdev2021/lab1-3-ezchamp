@@ -145,6 +145,8 @@ let tempInFahrenheit = 98.6
 
 // You may want to also show the temperature in celsius. You can convert fahrenheit to celsius by taking tempInFahrenheit and subtracting 32, then multiplying the result by (5.0/9.0). Create a constant tempInCelsius that calculates in one line the temperature in celsius.
 
+let tempInCelsius = (tempInFahrenheit - 32) * (5.0/9.0)
+print(tempInCelsius)
 
 // Create an integer constant x with a value of 10, and a double constant y with a value of 3.2. Create a constant multipliedAsIntegers equal to x times y. Does this compile? If not, fix it by converting your Double to an Int in the mathematical expression. Print the result.
 
